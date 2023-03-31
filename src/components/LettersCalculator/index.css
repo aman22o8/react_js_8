@@ -59,3 +59,32 @@
   height: 400px;
   width: 400px;
 }
+
+@media screen and (max-width: 768px) {
+  .main_container {
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_heading {
+    font-size: 30px;
+  }
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+  .input_box {
+    width: 225px;
+  }
+
+  .card_container1 {
+    order: 2;
+    width: 50vw;
+    padding-left: 0px;
+  }
+  .card_container2 {
+    order: 1;
+  }
+}
